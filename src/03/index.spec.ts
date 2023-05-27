@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import createCounter from "./index";
 
-describe("input value，return [value++,value,value--]", () => {
+describe("input value，return increment/reset/decrement value", () => {
   it("input 5，return [6,5,4]", () => {
     // arrange
     // 準備數據
