@@ -6,3 +6,4 @@
 | 2 | Closure | [Counter](https://leetcode.com/problems/counter/description/?utm_campaign=PostD2&utm_medium=Post&utm_source=Post&gio_link_id=xogkVqBo) |
 | 3 | Closure | [Counter II](https://leetcode.com/problems/counter-ii/?utm_campaign=PostD3&utm_medium=Post&utm_source=Post&gio_link_id=xRxVYOXo) |
 | 4 | Basic Array Transforms | [Apply Transform Over Each Element in Array](https://leetcode.com/problems/apply-transform-over-each-element-in-array/description/?utm_campaign=PostD4&utm_medium=Post&utm_source=Post&gio_link_id=noqbNOv9) |
+| 5 | Basic Array Transforms | [Filter Elements from Array](https://leetcode.com/problems/filter-elements-from-array/submissions/959698491/?utm_campaign=PostD5&utm_medium=Post&utm_source=Post&gio_link_id=a9a5VZr9) |
