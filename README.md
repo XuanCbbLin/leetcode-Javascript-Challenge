@@ -9,3 +9,4 @@
 | 5 | Basic Array Transforms | [Filter Elements from Array](https://leetcode.com/problems/filter-elements-from-array/submissions/959698491/?utm_campaign=PostD5&utm_medium=Post&utm_source=Post&gio_link_id=a9a5VZr9) |
 | 6 | Basic Array Transforms | [Array Reduce Transformation](https://leetcode.com/problems/array-reduce-transformation/description/?utm_campaign=PostD6&utm_medium=Post&utm_source=Post&gio_link_id=nPN45jD9) |
 | 7 | Function input and Output | [Function Composition](https://leetcode.com/problems/function-composition/description/?utm_campaign=PostD7&utm_medium=Post&utm_source=Post&gio_link_id=4PY7wZM9) |
+| 8 | Function input and Output | [Allow One Function Call](https://leetcode.com/problems/allow-one-function-call/description/?utm_campaign=PostD8&utm_medium=Post&utm_source=Post&gio_link_id=a9By01Oo) |
