@@ -13,3 +13,4 @@
 | 9 | Function input and Output | [Memoize](https://leetcode.com/problems/memoize/description/?utm_campaign=PostD9&utm_medium=Post&utm_source=Post&gio_link_id=nRbADVd9) |
 | 11 | Promise | [Sleep](https://leetcode.com/problems/sleep/description/?utm_campaign=PostD11&utm_medium=Post&utm_source=Post&gio_link_id=5Rp2Wmzo) |
 | 12 | Promise | [2637. Promise Time Limit](https://leetcode.com/problems/promise-time-limit/description/) |
+| 15 | Time (setTimeout) | [2627. Debounce](./src/15/index.ts) |
