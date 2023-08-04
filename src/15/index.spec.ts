@@ -15,12 +15,12 @@ describe("Given a function fn and a time in milliseconds t, return a debounced v
     let start = Date.now();
     let result: object[] = [];
 
-    function log(...inputs: any[]) {
+    const mock = vi.fn((...inputs: any[]) => {
       result.push({ t: Date.now() - start, inputs });
-    }
+    });
 
     // act
-    const dlog = debounce(log, 50);
+    const dlog = debounce(mock, 50);
 
     setTimeout(() => dlog(1), 50);
     setTimeout(() => dlog(2), 75);
@@ -29,6 +29,7 @@ describe("Given a function fn and a time in milliseconds t, return a debounced v
     vi.runAllTimers();
 
     // assert
+    expect(mock).toHaveBeenCalled();
     expect(JSON.stringify(result)).toBe('[{"t":125,"inputs":[2]}]');
   });
   it('Input: t = 20 calls = [{"t": 50, inputs: [1]},{"t": 100, inputs: [2]}] Output: [{"t": 70, inputs: [1]}, {"t": 120, inputs: [2]}]', () => {
@@ -36,12 +37,12 @@ describe("Given a function fn and a time in milliseconds t, return a debounced v
     let start = Date.now();
     let result: object[] = [];
 
-    function log(...inputs: any[]) {
+    const mock = vi.fn((...inputs: any[]) => {
       result.push({ t: Date.now() - start, inputs });
-    }
+    });
 
     // act
-    const dlog = debounce(log, 20);
+    const dlog = debounce(mock, 20);
 
     setTimeout(() => dlog(1), 50);
     setTimeout(() => dlog(2), 100);
@@ -50,6 +51,7 @@ describe("Given a function fn and a time in milliseconds t, return a debounced v
     vi.runAllTimers();
 
     // assert
+    expect(mock).toHaveBeenCalled();
     expect(JSON.stringify(result)).toBe('[{"t":70,"inputs":[1]},{"t":120,"inputs":[2]}]');
   });
   it('Input: t = 150 calls = [{"t": 50, inputs: [1, 2]},{"t": 300, inputs: [3, 4]},{"t": 300, inputs: [5, 6]}] [{"t": 200, inputs: [1,2]}, {"t": 450, inputs: [5, 6]}]', () => {
@@ -57,12 +59,12 @@ describe("Given a function fn and a time in milliseconds t, return a debounced v
     let start = Date.now();
     let result: object[] = [];
 
-    function log(...inputs: any[]) {
+    const mock = vi.fn((...inputs: any[]) => {
       result.push({ t: Date.now() - start, inputs });
-    }
+    });
 
     // act
-    const dlog = debounce(log, 150);
+    const dlog = debounce(mock, 150);
 
     setTimeout(() => dlog(1, 2), 50);
     setTimeout(() => dlog(3, 4), 300);
@@ -72,6 +74,7 @@ describe("Given a function fn and a time in milliseconds t, return a debounced v
     vi.runAllTimers();
 
     // assert
+    expect(mock).toHaveBeenCalled();
     expect(JSON.stringify(result)).toBe('[{"t":200,"inputs":[1,2]},{"t":450,"inputs":[5,6]}]');
   });
 });
