@@ -15,3 +15,4 @@
 | 12 | Promise | [2637. Promise Time Limit](https://leetcode.com/problems/promise-time-limit/description/) |
 | 15 | Time (setTimeout) | [2627. Debounce](./src/15/index.ts) |
 | 21 | JSON / Recursion / Important Utilities | [2677. Chunk Array](./src/21/index.ts) |
+| 22 | JSON / Recursion / Important Utilities | [2625. Flatten Deeply Nested Array](./src/22/index.ts) |
