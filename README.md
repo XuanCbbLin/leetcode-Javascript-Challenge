@@ -17,3 +17,4 @@
 | 21 | JSON / Recursion / Important Utilities | [2677. Chunk Array](./src/21/index.ts) |
 | 22 | JSON / Recursion / Important Utilities | [2625. Flatten Deeply Nested Array](./src/22/index.ts) |
 | 23 | This | [2619. Array Prototype Last](./src/23/index.ts) |
+| 24 | This | [2631. Group By](./src/24/index.ts) |
