@@ -20,3 +20,4 @@
 | 24 | This | [2631. Group By](./src/24/index.ts) |
 | 25 | This | [2618. Check if Object Instance of Class](./src/25/index.ts) |
 | other | Closures | [2704. To Be Or Not To Be](./src/Other/2704/index.ts) |
+| other | Function Transformations | [2703. Return Length of Arguments Passed](./src/Other/2703/index.ts) |
