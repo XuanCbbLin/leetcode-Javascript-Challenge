@@ -22,3 +22,4 @@
 | other | Closures | [2704. To Be Or Not To Be](./src/Other/2704/index.ts) |
 | other | Function Transformations | [2703. Return Length of Arguments Passed](./src/Other/2703/index.ts) |
 | other | Promises and Time | [2723. Add Two Promises](./src/Other/2723/index.ts) |
+| other | Promises and Time | [2715. Timeout Cancellation](./src/Other/2715/index.ts) |
