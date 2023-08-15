@@ -24,3 +24,4 @@
 | other | Promises and Time | [2723. Add Two Promises](./src/Other/2723/index.ts) |
 | other | Promises and Time | [2715. Timeout Cancellation](./src/Other/2715/index.ts) |
 | other | Promises and Time | [2725. Interval Cancellation](./src/Other/2725/index.ts) |
+| other | Promises and Time | [2721. Execute Asynchronous Functions in Parallel](./src/Other/2721/index.ts) |
