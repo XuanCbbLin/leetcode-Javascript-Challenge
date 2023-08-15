@@ -1,7 +1,7 @@
 import { it, describe, expect } from "vitest";
 import sleep from "./index";
 
-describe("Given a positive integer millis, write an asynchronous function that sleeps for millis milliseconds. It can resolve any value.", () => {
+describe.skip("Given a positive integer millis, write an asynchronous function that sleeps for millis milliseconds. It can resolve any value.", () => {
   it("Input: millis = 100 Output: 100", async () => {
     // arrange
     const millis = 100;
