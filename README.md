@@ -25,3 +25,4 @@
 | other | Promises and Time | [2715. Timeout Cancellation](./src/Other/2715/index.ts) |
 | other | Promises and Time | [2725. Interval Cancellation](./src/Other/2725/index.ts) |
 | other | Promises and Time | [2721. Execute Asynchronous Functions in Parallel](./src/Other/2721/index.ts) |
+| other | JSON | [2727. Is Object Empty](./src/Other/2727/index.ts) |
