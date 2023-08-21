@@ -28,3 +28,4 @@
 | other | JSON | [2727. Is Object Empty](./src/Other/2727/index.ts) |
 | other | JSON | [2724. Sort By](./src/Other/2724/index.ts) |
 | other | JSON | [2722. Join Two Arrays by ID](./src/Other/2722/index.ts) |
+| other | JSON | [2705. Compact Object](./src/Other/2705/index.ts) |
